@@ -1,4 +1,55 @@
 
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.querySelector('header nav div');
+    const menu = dropdown.querySelector('div');
+    dropdown.addEventListener('mouseover', () => menu.style.display = 'block');
+    dropdown.addEventListener('mouseout', () => menu.style.display = 'none');
+  });
+</script>
+
+
+    <img src="logo.png" alt="Cline Geospatial Logo"/>
+    <nav>
+      <a href="#services">Services</a>
+    </nav>
+  </header><section id="highlight" style="background: url('hero_road_combined.jpg') no-repeat center center/cover; padding: 60px 40px; margin: 0 auto; max-width: 1000px; border-radius: 10px; color: #fff; background-blend-mode: overlay; background-color: rgba(0,0,0,0.6);">
+  <h1 style="font-size: 2.5em; margin-bottom: 20px;"></h1>
+  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
+  <p>
+    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
+    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
+    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
+    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
+    and pedestrian enhancements.
+  </p>
+  <p>
+    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
+    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
+    and project funding justification.
+  </p>
+</section>
+
+  
+
+
+
+  <h1></h1>
+</div>
+
+
+
+
+
+
+
+    <h1>Relationships Are Spatial.</h1>
+  </div>
+
+  
+
+
 <header style="background: #1f1f1f; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center;">
   <div>
     <img src="logo.png" alt="Cline Geospatial Logo" style="height: 50px;">
@@ -17,77 +68,9 @@
     <a href="#contact" style="color: white; font-weight: bold; text-decoration: none;">Contact</a>
   </nav>
 </header>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const dropdown = document.querySelector('header nav div');
-    const menu = dropdown.querySelector('div');
-    dropdown.addEventListener('mouseover', () => menu.style.display = 'block');
-    dropdown.addEventListener('mouseout', () => menu.style.display = 'none');
-  });
-</script>
-
-
-    <img src="logo.png" alt="Cline Geospatial Logo"/>
-    <nav>
-      <a href="#services">Services</a>
-    </nav>
-  </header>
-
-  
-
-
-
-  <h1>Transportation Safety Is Spatial.</h1>
-</div>
-
-
-
-<section id="highlight" style="background: url('hero_road_combined.jpg') no-repeat center center/cover; padding: 60px 40px; margin: 0 auto; max-width: 1000px; border-radius: 10px; color: #fff; background-blend-mode: overlay; background-color: rgba(0,0,0,0.6);">
-  <div style="padding: 20px 30px;">
-    <h1 style="font-size: 1.8em; color: #ff5e0e;">Transportation Safety Is Spatial.</h1>
-    <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
-    <p>
-      In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
-      to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
-      mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
-      Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
-      and pedestrian enhancements.
-    </p>
-    <p>
-      This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
-      Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
-      and project funding justification.
-    </p>
-  </div>
-</section>
-
-
-
-    <h1>Relationships Are Spatial.</h1>
-  </div>
-
-  
-
-
-<section id="highlight" style="background: url('hero_road_combined.jpg') no-repeat center center/cover; padding: 60px 40px; margin: 0 auto; max-width: 1000px; border-radius: 10px; color: #fff; background-blend-mode: overlay; background-color: rgba(0,0,0,0.6);">
-  <h1 style="font-size: 2.5em; margin-bottom: 20px;">Transportation Safety Is Spatial.</h1>
-  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
-  <p>
-    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
-    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
-    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
-    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
-    and pedestrian enhancements.
-  </p>
-  <p>
-    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
-    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
-    and project funding justification.
-  </p>
-</section>
 
 <div style="text-align: center; margin: 60px 0;">
-  <p style="font-size: 1.5em; font-weight: 500; font-style: italic; color: #444;">“Relationships are Spatial.”</p>
+  <p style="text-align: center; font-size: 2em; font-weight: 500; font-style: italic; color: #444;">“Relationships are Spatial.”</p>
 </div>
 <section id="services">
   <h2 style="text-align:center;">Our Services</h2>
@@ -132,15 +115,7 @@
   </p>
 </section>
 
-<section id="contact" style="padding: 60px 40px; max-width: 800px; margin: auto;">
-  <h2 style="text-align: center;">Contact Us</h2>
-  <form action="https://formspree.io/f/your-form-id" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
-    <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; font-size: 1em;">
-    <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; font-size: 1em;">
-    <textarea name="message" placeholder="Your Message" rows="6" required style="padding: 10px; font-size: 1em;"></textarea>
-    <button type="submit" style="padding: 12px; font-size: 1em; background: #004d66; color: white; border: none; border-radius: 4px;">Send Message</button>
-  </form>
-</section>
+
 <footer>
     &copy; 2025 <span>Cline Geospatial</span>. Built with <span>purpose</span> & precision.
   
@@ -151,6 +126,15 @@
 </div>
 </footer>
 
+<section id="contact" style="padding: 60px 40px; max-width: 800px; margin: auto;">
+  <h2 style="text-align: center;">Contact Us</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+    <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; font-size: 1em;">
+    <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; font-size: 1em;">
+    <textarea name="message" placeholder="Your Message" rows="6" required style="padding: 10px; font-size: 1em;"></textarea>
+    <button type="submit" style="padding: 12px; font-size: 1em; background: #004d66; color: white; border: none; border-radius: 4px;">Send Message</button>
+  </form>
+</section>
 </body>
 </html>
 <section id="why">
@@ -273,16 +257,7 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
 
   
 
-<header style="display: flex; align-items: center; justify-content: space-between; background: #1f1f1f; padding: 20px 40px;">
-  <div>
-    <img src="logo.png" alt="Cline Geospatial Logo" style="height: 50px; vertical-align: middle;">
-  </div>
-  <nav>
-    
-    <a href="#why" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Why Work With Us</a>
-    <a href="#owner" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">About</a><a href="#contact" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Contact</a>
-  </nav>
-</header>
+
 
   <img src="logo.png" alt="Cline Geospatial Logo"/>
   <nav>
@@ -304,24 +279,10 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
   <div style="text-align:center; background: #ffe4cc; padding: 20px; color: #333; font-size: 1.1em; font-weight: 500;">
     <em>“Own your data. Own your system. We're here to help you build it, not rent it.”</em>
   </div>
-  <h1>Transportation Safety Is Spatial.</h1>
+  <h1></h1>
 </div>
 
-<section id="highlight">
-  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
-  <p>
-    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
-    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
-    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
-    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
-    and pedestrian enhancements.
-  </p>
-  <p>
-    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
-    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
-    and project funding justification.
-  </p>
-</section>
+
 
     <h1>Relationships Are Spatial.</h1>
   </div>
@@ -401,5 +362,14 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
 </div>
 </footer>
 
+<section id="contact" style="padding: 60px 40px; max-width: 800px; margin: auto;">
+  <h2 style="text-align: center;">Contact Us</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+    <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; font-size: 1em;">
+    <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; font-size: 1em;">
+    <textarea name="message" placeholder="Your Message" rows="6" required style="padding: 10px; font-size: 1em;"></textarea>
+    <button type="submit" style="padding: 12px; font-size: 1em; background: #004d66; color: white; border: none; border-radius: 4px;">Send Message</button>
+  </form>
+</section>
 </body>
 </html>
