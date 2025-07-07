@@ -75,9 +75,10 @@
       border-top: 3px solid var(--accent-orange);
     }
     .card img {
-      width: 100%;
-      max-height: 250px;
-      object-fit: cover;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
       margin: 15px 0;
     }
     footer {
@@ -97,14 +98,44 @@
 </head>
 <body>
 
-  <header>
+  
+<header>
+  <img src="logo.png" alt="Cline Geospatial Logo"/>
+  <nav>
+    <a href="#modeling">Modeling & Analytics</a>
+    <a href="#programming">Programming</a>
+    <a href="#database">Database Management</a>
+    <a href="#webservices">Web Services</a>
+  </nav>
+</header>
+
     <img src="logo.png" alt="Cline Geospatial Logo"/>
     <nav>
       <a href="#services">Services</a>
     </nav>
   </header>
 
-  <div class="hero">
+  
+<div class="hero">
+  <h1>Transportation Safety Is Spatial.</h1>
+</div>
+
+<section id="highlight">
+  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
+  <p>
+    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
+    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
+    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
+    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
+    and pedestrian enhancements.
+  </p>
+  <p>
+    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
+    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
+    and project funding justification.
+  </p>
+</section>
+
     <h1>Relationships Are Spatial.</h1>
   </div>
 
@@ -112,7 +143,7 @@
     <h2>Services</h2>
     <div class="services">
       <div class="card">
-        <h3>Modeling & Analytics</h3>
+        <h3 id="modeling">Modeling & Analytics</h3>
         <p><strong>Flood Risk Modeling – Culmback Dam, Sultan WA</strong><br>
         ArcGIS Pro + lidar-derived DTM hydrology modeling. Topography-based flow analysis confirmed Sultan, WA, is largely protected from dam breach flooding.</p>
         <img src="filledDEM_v2.png" alt="Flood Modeling">
@@ -123,32 +154,32 @@
       </div>
 
       <div class="card">
-        <h3>Programming</h3>
+        <h3 id="programming">Programming</h3>
         <p><strong>Custom Python Tool – Parsing Mass Violence Events</strong><br>
         ArcPy tool parsed mass shooting events into decade-based shapefiles, exported ArcGIS layouts and dashboards for trend analysis. Automation enabled efficient and repeatable workflows.</p>
         <img src="flowchart.png" alt="Python Script Tool">
       </div>
 
       <div class="card">
-        <h3>Database Management</h3>
+        <h3 id="database">Database Management</h3>
         <p><strong>National Campgrounds App – Wyoming</strong><br>
         PostgreSQL/PostGIS database supports an interactive campground filter map, integrating federal datasets and optimized with spatial indexing.</p>
-        <img src="https://via.placeholder.com/600x300.png?text=Campground+Map" alt="Campground Map">
+        <img src="campground_map.jpg" alt="Campground Map">
 
         <p><strong>Wildlife Data Editing – GW Parkway</strong><br>
         ArcGIS Enterprise SDE + versioned feature services allow live editing of wildlife records. Attribute rules, constraints, and mobile sync support field edits.</p>
-        <img src="https://via.placeholder.com/600x300.png?text=Wildlife+Editor+Map" alt="Wildlife Editor">
+        <img src="flowchart_wildlife.png" alt="Wildlife Editor">
       </div>
 
       <div class="card">
-        <h3>Web Services</h3>
+        <h3 id="webservices">Web Services</h3>
         <p><strong>Global Powerplant Map</strong><br>
         ArcGIS Server dynamic map showing power plants by type. Scale-dependent symbols and filter tools help reveal supply vs. demand globally.</p>
-        <img src="https://tse1.mm.bing.net/th/id/OIP.szngL43-Ok52eFzm-X44XAHaEK?r=0&pid=Api" alt="Global Powerplants">
+        <img src="powerplant.jpg" alt="Global Powerplants">
 
         <p><strong>Housing Availability – USA</strong><br>
         ACS data visualized in ArcGIS Online. Choropleths and pie chart widgets reveal housing patterns by census tract across the U.S.</p>
-        <img src="https://tse1.mm.bing.net/th/id/OIP.RIh7jdvIf6tIXZWwjfQfrgHaFO?r=0&pid=Api" alt="Housing Map">
+        <img src="housing_map.jpg" alt="Housing Map">
       </div>
     </div>
   </section>
