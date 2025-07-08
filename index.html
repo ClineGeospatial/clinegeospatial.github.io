@@ -1,0 +1,444 @@
+<!-- Updated index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cline Geospatial</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+body { font-family: 'Open Sans', sans-serif; }
+h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+    :root {
+      --accent-orange: #ff5e0e;
+      --accent-blue: #00bfff;
+      --dark-bg: #1a1a1a;
+      --light-text: #f5f5f5;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #121212;
+      color: var(--light-text);
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: var(--light-text);
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent-orange);
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1534081333815-ae5019106621') no-repeat center center/cover;
+      height: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      font-size: 3em;
+      color: var(--accent-orange);
+      text-transform: uppercase;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--accent-blue);
+      margin-bottom: 20px;
+    }
+    .services {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .card {
+      background: #2a2a2a;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      border-top: 3px solid var(--accent-orange);
+    }
+    .card img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      margin: 15px 0;
+    }
+    footer {
+      background: #0d0d0d;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    footer span {
+      color: var(--accent-blue);
+    }
+    a {
+      color: var(--accent-orange);
+    }
+  </style>
+</head>
+<body>
+
+  
+
+<header style="display: flex; align-items: center; justify-content: space-between; background: #1f1f1f; padding: 20px 40px;">
+  <div>
+    <img src="logo.png" alt="Cline Geospatial Logo" style="height: 50px; vertical-align: middle;">
+  </div>
+  <nav>
+    <a href="#services" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Services</a>
+    <a href="#why" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Why Work With Us</a>
+    <a href="#owner" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">About</a>
+  </nav>
+</header>
+
+  <img src="logo.png" alt="Cline Geospatial Logo"/>
+  <nav>
+    <a href="#modeling">Modeling & Analytics</a>
+    <a href="#programming">Programming</a>
+    <a href="#database">Database Management</a>
+    <a href="#webservices">Web Services</a>
+  </nav>
+</header>
+
+    <img src="logo.png" alt="Cline Geospatial Logo"/>
+    <nav>
+      <a href="#services">Services</a>
+    </nav>
+  </header>
+
+  
+<div class="hero">
+  <div style="text-align:center; background: #ffe4cc; padding: 20px; color: #333; font-size: 1.1em; font-weight: 500;">
+    <em>“Own your data. Own your system. We're here to help you build it, not rent it.”</em>
+  </div>
+  <h1>Transportation Safety Is Spatial.</h1>
+</div>
+
+<div style="height: 40px;"></div>
+<section id="highlight">
+  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
+  <p>
+    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
+    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
+    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
+    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
+    and pedestrian enhancements.
+  </p>
+  <p>
+    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
+    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
+    and project funding justification.
+  </p>
+</section>
+<div style="height: 40px;"></div>
+
+    <h1>Relationships Are Spatial.</h1>
+  </div>
+
+  
+<section id="services">
+  <h2 style="text-align:center;">Our Services</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 40px 0;">
+    <div style="flex: 1 1 250px; max-width: 300px; background: #2a2a2a; padding: 20px; border-radius: 10px; text-align: center;">
+      <div style="font-size: 40px; margin-bottom: 10px;">📊</div>
+      <h3>Modeling & Analytics</h3>
+      <p>Advanced GIS models for flood simulation, redistricting, congestion, and more.</p>
+    </div>
+    <div style="flex: 1 1 250px; max-width: 300px; background: #2a2a2a; padding: 20px; border-radius: 10px; text-align: center;">
+      <div style="font-size: 40px; margin-bottom: 10px;">💻</div>
+      <h3>Programming</h3>
+      <p>Custom Python tools and ArcPy automation to streamline spatial analysis workflows.</p>
+    </div>
+    <div style="flex: 1 1 250px; max-width: 300px; background: #2a2a2a; padding: 20px; border-radius: 10px; text-align: center;">
+      <div style="font-size: 40px; margin-bottom: 10px;">🗄️</div>
+      <h3>Database Management</h3>
+      <p>Efficient, scalable spatial databases using PostGIS, SDE, and Esri geodatabases.</p>
+    </div>
+    <div style="flex: 1 1 250px; max-width: 300px; background: #2a2a2a; padding: 20px; border-radius: 10px; text-align: center;">
+      <div style="font-size: 40px; margin-bottom: 10px;">🌐</div>
+      <h3>Web Services</h3>
+      <p>Public-facing and internal web maps using ArcGIS Online and Server with COTS design.</p>
+    </div>
+  </div>
+</section>
+
+
+  
+<section id="owner" style="padding: 60px 40px; max-width: 800px; margin: auto; text-align: center;">
+  <h2>About the Owner</h2>
+  <img src="about_owner.jpg" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 0 15px #ff5e0e;">
+  <p>
+    Angela Cline is a North Carolina native, a graduate of the United States Naval Academy, and a proud veteran with prior federal service as a geospatial analyst. Her experience in the federal government reinforced a core belief: excellent performance must be defined by impact and grounded in integrity.
+  </p>
+  <p>
+    That principle inspired her to launch Cline Geospatial—an independent, woman-owned GIS consulting firm focused on technical excellence and real-world results. Angela built her company to challenge the status quo: she saw too many agencies weighed down by bloated contracts and inflexible systems. Cline Geospatial was born to be different.
+  </p>
+  <p>
+    Today, Angela leads a small, skilled team of GIS professionals who value clarity, efficiency, and craftsmanship. From transportation analytics to enterprise GIS integration, Cline Geospatial delivers results that empower clients, not dependency.
+  </p>
+</section>
+<footer>
+    &copy; 2025 <span>Cline Geospatial</span>. Built with <span>purpose</span> & precision.
+  
+<div style="margin-top: 40px; font-size: 0.9em; color: #bbb;">
+  <p style="font-style: italic;">“On the strength of one link in the cable, dependeth the might of the chain.<br>
+  Who knows when thou may’st be tested? So live that thou bearest the strain.”</p>
+  <p style="font-style: italic;">“It is not the critic who counts... The credit belongs to the man who is actually in the arena... who strives valiantly... who errs... but who does actually strive to do the deeds.”</p>
+</div>
+</footer>
+
+</body>
+</html>
+<section id="why">
+  <h2>Why Work With Us</h2>
+  <p>
+    At Cline Geospatial, we combine the flexibility of a small firm with the depth of experience typically found in large consultancies. Our team brings years of hands-on GIS expertise from federal agencies, state DOTs, and municipal governments—allowing us to ramp up quickly, communicate clearly, and deliver tailored solutions that work.
+  </p>
+  <p>
+    We believe in empowering our clients to take ownership of their data, tools, and workflows. Our solutions are built using commercial off-the-shelf (COTS) software and designed for long-term sustainability. We don't nickel-and-dime our clients with management fees—we deliver value up front.
+  </p>
+  <p>
+    Every project is deployed with clear documentation, detailed procedures, and full integration into your existing infrastructure. Whether through web apps, databases, or field-ready workflows, we build systems your team can confidently manage after delivery.
+  </p>
+  <p>
+    We don’t believe in one-size-fits-all. Our streamlined structure allows for direct access to skilled analysts and developers who understand your goals, adapt to your workflows, and respond with precision. We're not just vendors—we’re partners in your success.
+  </p>
+</section>
+ted index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cline Geospatial</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+body { font-family: 'Open Sans', sans-serif; }
+h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+    :root {
+      --accent-orange: #ff5e0e;
+      --accent-blue: #00bfff;
+      --dark-bg: #1a1a1a;
+      --light-text: #f5f5f5;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #121212;
+      color: var(--light-text);
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: var(--light-text);
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent-orange);
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1534081333815-ae5019106621') no-repeat center center/cover;
+      height: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      font-size: 3em;
+      color: var(--accent-orange);
+      text-transform: uppercase;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--accent-blue);
+      margin-bottom: 20px;
+    }
+    .services {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .card {
+      background: #2a2a2a;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      border-top: 3px solid var(--accent-orange);
+    }
+    .card img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      margin: 15px 0;
+    }
+    footer {
+      background: #0d0d0d;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    footer span {
+      color: var(--accent-blue);
+    }
+    a {
+      color: var(--accent-orange);
+    }
+  </style>
+</head>
+<body>
+
+  
+
+<header style="display: flex; align-items: center; justify-content: space-between; background: #1f1f1f; padding: 20px 40px;">
+  <div>
+    <img src="logo.png" alt="Cline Geospatial Logo" style="height: 50px; vertical-align: middle;">
+  </div>
+  <nav>
+    <a href="#services" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Services</a>
+    <a href="#why" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">Why Work With Us</a>
+    <a href="#owner" style="margin-left: 20px; color: white; font-weight: bold; text-decoration: none;">About</a>
+  </nav>
+</header>
+
+  <img src="logo.png" alt="Cline Geospatial Logo"/>
+  <nav>
+    <a href="#modeling">Modeling & Analytics</a>
+    <a href="#programming">Programming</a>
+    <a href="#database">Database Management</a>
+    <a href="#webservices">Web Services</a>
+  </nav>
+</header>
+
+    <img src="logo.png" alt="Cline Geospatial Logo"/>
+    <nav>
+      <a href="#services">Services</a>
+    </nav>
+  </header>
+
+  
+<div class="hero">
+  <div style="text-align:center; background: #ffe4cc; padding: 20px; color: #333; font-size: 1.1em; font-weight: 500;">
+    <em>“Own your data. Own your system. We're here to help you build it, not rent it.”</em>
+  </div>
+  <h1>Transportation Safety Is Spatial.</h1>
+</div>
+
+<section id="highlight">
+  <h2>Project Highlight: Crash Geocoding for NC Safety Analysis</h2>
+  <p>
+    In support of North Carolina’s traffic safety initiatives, Cline Geospatial provided manual crash geocoding services
+    to improve the positional accuracy of crash records. By aligning crash reports with real-world road network data and field-verified
+    mile markers, our work enabled precise identification of high-crash corridors. These insights directly supported NCDOT and
+    Vision Zero planning teams in prioritizing locations for safety improvements such as signal modifications, lane redesigns,
+    and pedestrian enhancements.
+  </p>
+  <p>
+    This project illustrates the impact of detailed GIS QA/QC workflows and manual review in transportation planning.
+    Through precise spatial correction, we improved the analytical foundation for corridor safety scoring, crash clustering,
+    and project funding justification.
+  </p>
+</section>
+
+    <h1>Relationships Are Spatial.</h1>
+  </div>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3 id="modeling">Modeling & Analytics</h3>
+        <p><strong>Flood Risk Modeling – Culmback Dam, Sultan WA</strong><br>
+        ArcGIS Pro + lidar-derived DTM hydrology modeling. Topography-based flow analysis confirmed Sultan, WA, is largely protected from dam breach flooding.</p>
+        <img src="filledDEM_v2.png" alt="Flood Modeling">
+
+        <p><strong>Redistricting & Demographic Analysis – Illinois</strong><br>
+        ArcGIS Insights dashboards analyzed racial impacts of redistricting plans. Choropleths and bar charts revealed boundary effects on minority groups.</p>
+        <img src="illinois.png" alt="Redistricting">
+      </div>
+
+      <div class="card">
+        <h3 id="programming">Programming</h3>
+        <p><strong>Custom Python Tool – Parsing Mass Violence Events</strong><br>
+        ArcPy tool parsed mass shooting events into decade-based shapefiles, exported ArcGIS layouts and dashboards for trend analysis. Automation enabled efficient and repeatable workflows.</p>
+        <img src="flowchart.png" alt="Python Script Tool">
+      </div>
+
+      <div class="card">
+        <h3 id="database">Database Management</h3>
+        <p><strong>National Campgrounds App – Wyoming</strong><br>
+        PostgreSQL/PostGIS database supports an interactive campground filter map, integrating federal datasets and optimized with spatial indexing.</p>
+        <img src="campground_map.jpg" alt="Campground Map">
+
+        <p><strong>Wildlife Data Editing – GW Parkway</strong><br>
+        ArcGIS Enterprise SDE + versioned feature services allow live editing of wildlife records. Attribute rules, constraints, and mobile sync support field edits.</p>
+        <img src="flowchart_wildlife.png" alt="Wildlife Editor">
+      </div>
+
+      <div class="card">
+        <h3 id="webservices">Web Services</h3>
+        <p><strong>Global Powerplant Map</strong><br>
+        ArcGIS Server dynamic map showing power plants by type. Scale-dependent symbols and filter tools help reveal supply vs. demand globally.</p>
+        <img src="powerplant.jpg" alt="Global Powerplants">
+
+        <p><strong>Housing Availability – USA</strong><br>
+        ACS data visualized in ArcGIS Online. Choropleths and pie chart widgets reveal housing patterns by census tract across the U.S.</p>
+        <img src="housing_map.jpg" alt="Housing Map">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 <span>Cline Geospatial</span>. Built with <span>purpose</span> & precision.
+  
+<div style="margin-top: 40px; font-size: 0.9em; color: #bbb;">
+  <p style="font-style: italic;">“On the strength of one link in the cable, dependeth the might of the chain.<br>
+  Who knows when thou may’st be tested? So live that thou bearest the strain.”</p>
+  <p style="font-style: italic;">“It is not the critic who counts... The credit belongs to the man who is actually in the arena... who strives valiantly... who errs... but who does actually strive to do the deeds.”</p>
+</div>
+</footer>
+
+</body>
+</html>
