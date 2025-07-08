@@ -73,28 +73,31 @@
   </div>
 </section>
 
-
 <section id="services">
-  <h2>Our Services</h2>
-  <div class="services">
-    <div class="card">
-      <img src="service1.jpg" alt="GIS Analysis"/>
-      <h3>Spatial Analysis</h3>
-      <p>Advanced GIS modeling for transportation, land use, and safety programs.</p>
+  <h2 style="text-align:center; color: #00bfff;">Our Services</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 40px 0;">
+    <div style="flex: 1 1 300px; max-width: 350px; background: #2a2a2a; padding: 20px; border-radius: 10px;">
+      <div style="float: left; font-size: 40px; margin-right: 15px;">📊</div>
+      <h3>Modeling & Analytics</h3>
+      <p style="overflow: hidden;">Advanced GIS models for flood simulation, redistricting, congestion, and more.</p>
     </div>
-    <div class="card">
-      <img src="service2.jpg" alt="Field Apps"/>
-      <h3>Mobile & Field GIS</h3>
-      <p>Streamlined data collection using ArcGIS Field Maps, Survey123, and dashboards.</p>
+    <div style="flex: 1 1 300px; max-width: 350px; background: #2a2a2a; padding: 20px; border-radius: 10px;">
+      <div style="float: left; font-size: 40px; margin-right: 15px;">💻</div>
+      <h3>Programming</h3>
+      <p style="overflow: hidden;">Custom Python tools and ArcPy automation to streamline spatial analysis workflows.</p>
     </div>
-    <div class="card">
-      <img src="service3.jpg" alt="Web Mapping"/>
-      <h3>Custom Web Maps</h3>
-      <p>Interactive web apps that bring geospatial insights to your stakeholders.</p>
+    <div style="flex: 1 1 300px; max-width: 350px; background: #2a2a2a; padding: 20px; border-radius: 10px;">
+      <div style="float: left; font-size: 40px; margin-right: 15px;">🗄️</div>
+      <h3>Database Management</h3>
+      <p style="overflow: hidden;">Efficient, scalable spatial databases using PostGIS, SDE, and Esri geodatabases.</p>
+    </div>
+    <div style="flex: 1 1 300px; max-width: 350px; background: #2a2a2a; padding: 20px; border-radius: 10px;">
+      <div style="float: left; font-size: 40px; margin-right: 15px;">🌐</div>
+      <h3>Web Services</h3>
+      <p style="overflow: hidden;">Public-facing and internal web maps using ArcGIS Online and Server with COTS design.</p>
     </div>
   </div>
 </section>
-
 
 
 
@@ -149,26 +152,74 @@
   <p style="font-size: 2em; font-weight: 500; font-style: italic; color: #444;">“Relationships are Spatial.”</p>
 </div>
 
-
 <section id="services">
-  <h2>Our Services</h2>
-  <div class="services">
-    <div class="card">
-      <img src="service1.jpg" alt="GIS Analysis"/>
-      <h3>Spatial Analysis</h3>
-      <p>Advanced GIS modeling for transportation, land use, and safety programs.</p>
-    </div>
-    <div class="card">
-      <img src="service2.jpg" alt="Field Apps"/>
-      <h3>Mobile & Field GIS</h3>
-      <p>Streamlined data collection using ArcGIS Field Maps, Survey123, and dashboards.</p>
-    </div>
-    <div class="card">
-      <img src="service3.jpg" alt="Web Mapping"/>
-      <h3>Custom Web Maps</h3>
-      <p>Interactive web apps that bring geospatial insights to your stakeholders.</p>
-    </div>
+  <h2 style="text-align:center; color: #00bfff;">Our Services</h2>
+  <h3 id="modeling">Modeling & Analytics</h3>
+  Modeling & Analytics</h3>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px 0;">
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>Flood Risk Modeling – Culmback Dam, Sultan WA</h3>
+    <p>ArcGIS Pro + lidar-derived DTM hydrology modeling. Topography-based flow analysis confirmed Sultan, WA, is largely protected from dam breach flooding.</p>
+    <a href="flood_risk_modeling.png" target="_blank">
+      <img src="flood_risk_modeling.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;" />
+    </a>
   </div>
-</section>
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>Redistricting & Demographic Analysis – Illinois</h3>
+    <p>ArcGIS Insights dashboards analyzed racial impacts of redistricting plans. Choropleths and bar charts revealed boundary effects on minority groups.</p>
+    <a href="illinois.png" target="_blank">
+      <img src="illinois.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;" />
+    </a>
+  </div>
+</div>
 
+  <h3 id="programming">Programming</h3>
+  Programming</h3>
+        <p><strong>Custom Python Tool – Parsing Mass Violence Events</strong><br>
+        ArcPy tool parsed mass shooting events into decade-based shapefiles, exported ArcGIS layouts and dashboards for trend analysis. Automation enabled efficient and repeatable workflows.</p>
+        <img src="flowchart.png" alt="Python Script Tool">
+      
+<img src="programming_dashboard.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;">
+</div>
+
+      <div class="card">
+        
+  <h3 id="database">Database Management</h3>
+  Database Management</h3>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px 0;">
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>National Campgrounds App – Wyoming</h3>
+    <p>PostgreSQL/PostGIS database supports an interactive campground filter map, integrating federal datasets and optimized with spatial indexing.</p>
+    <img src="flood_risk_modeling.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>Wildlife Data Editing – GW Parkway</h3>
+    <p>ArcGIS Enterprise SDE + versioned feature services allow live editing of wildlife records. Attribute rules, constraints, and mobile sync support field edits.</p>
+    <img src="programming_flowchart.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px; margin-bottom: 20px;">
+  </div>
+</div>
+
+
+  <h3 id="webservices">Web Services</h3>
+  Web Services</h3>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px 0;">
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>Global Powerplant Map</h3>
+    <p>ArcGIS Server dynamic map showing power plants by type. Scale-dependent symbols and filter tools help reveal supply vs. demand globally.</p>
+    <a href="powerplant.jpg" target="_blank">
+      <img src="powerplant.jpg" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;" />
+    </a>
+  </div>
+  <div style="flex: 1 1 400px; max-width: 500px;">
+    <h3>Tax Parcel Impact Analysis App</h3>
+    <p>This interactive web mapping app enables transportation planners to draw road alignments and evaluate impacted tax parcels. The app supports spatial and attribute filtering, empowering users to analyze property value, structure counts, and local land attribution. It demonstrates how a standardized tax strategy can support regional transportation infrastructure planning.</p>
+    <a href="tax_parcel_webapp.png" target="_blank">
+      <img src="tax_parcel_webapp.png" style="width: 100%; max-width: 450px; height: auto; border-radius: 8px;" />
+    </a>
+  </div>
+</div>
+
+    </div>
+  
+</section>
 >
